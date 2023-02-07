@@ -1,0 +1,157 @@
+@media (max-width: 770px){
+    
+}
+@media (max-width: 568px){
+    
+.navbar-toggler-icon {
+    color: black;
+}
+ nav {
+    position: relative;
+    background-color: #ffff;
+    box-shadow: 2px 2px 10px gray;
+    height: 70px;
+}
+/* alignment of all naviagtion items to center */
+.nav1{
+    align-items: center;
+}
+/* navigation bar link postion e.g Home  */
+.menu-ul {
+    position: absolute;
+    left: 20%;
+}
+
+/* navigation bar link spacing e.g Home */
+.menu-ul li  {
+    padding: 0 10px;
+}
+
+/* logo  */
+.logo img {
+    position: absolute;
+    top: -120%;
+    left: -12%;
+    width: 220px;
+ }
+ .nav1 a {
+    color: #1e1d1e;
+    font-family: poppins;
+    font-size: large;
+ }
+.nav-item a {
+    color: #1E1D1E;
+}
+
+/* Beginning of features */
+.navf li a {
+    padding-top: 14px;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+} 
+ .navf li a:hover {
+    padding-top: 14px;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    color: #DA1C5C;
+}
+.navf li {
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    width: 10%;
+} 
+.f-icon img {
+    width: 30px;
+}  
+.a1 {
+    margin-top: 10px;
+} 
+.a2 {
+    margin-bottom: 10px;
+}
+/* End Terminal of the features */
+
+/* Begining of Help */
+.help-0 {
+    position: relative;
+} 
+.navh li a {
+    padding: 10px 20px;
+    align-items: center;
+    font-size: 13px;
+    color: #1E1D1E;
+} 
+.link-r {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-right: 10%;
+}
+.link-r a {
+    
+    text-decoration: none;
+    /* padding: 0 30px; */
+    font-weight: bold;
+    font-size: 16px;
+}
+.sign-in {
+    font-weight: bold;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;  
+}
+.sign-up a {
+    color: #fff;
+    font-size: 16px;
+}
+.sign-up {
+    text-align: center;
+    font-weight: bold;
+    background-color: #ff5b92;
+    box-shadow: 0 1px #1E1D1E;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    
+}
+.sign-up:hover {
+    font-weight: bold;
+    color: #ffff;
+    background-color: #DA1C5C;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transform: translateY(-1px);
+    -webkit-transform: translateY(-1px);
+    -moz-transform: translateY(-1px);
+    -ms-transform: translateY(-1px);
+    -o-transform: translateY(-1px);
+    transition: all ease-out 0.3s;
+    transition-property: all;
+    -webkit-transition: all;
+    -moz-transition: all;
+    -ms-transition: all;
+    -o-transition: all;
+} 
+.togu {
+    left: 80%;
+    position: absolute;
+    color: #1E1D1E;
+    background-color: #1E1D1E;
+    position: relative;
+}
+#menu-items {
+    position: absolute;
+    left: 30%;
+}
+}

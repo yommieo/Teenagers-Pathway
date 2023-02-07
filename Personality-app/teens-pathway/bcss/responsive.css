@@ -1,0 +1,74 @@
+@media (max-width: 770px){
+    
+}
+@media (max-width: 568px){
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  .gen{
+  margin-left: 00px;
+  flex-direction: column;
+  }
+  .gen1{
+    height: 680px;
+    width: 75%;
+    border: 5px solid rgb(247, 241, 241);
+    box-shadow: 2px 5px rgb(247, 241, 241);
+    border-radius: 20px;
+    padding: 10px 10px;
+    background-color: #6ae1ed;
+    margin-left: 30px;
+  }
+  .gen2{
+    height: 620px;
+    width: 75%;
+    border: 5px solid rgb(247, 241, 241);
+    box-shadow: 2px 5px rgb(247, 241, 241);
+    border-radius: 20px;
+    padding: 10px 10px;
+    background-color: #6ae1ed;
+  }
+  .gen1-1 img{
+    margin-left: 5px;
+    border-radius: 15px;
+    width: 350px;
+  }
+  .gen2-1 img{
+    margin-left: 5px;
+    border-radius: 15px;
+    width: 350px;
+  }
+  .gen-txt{
+    width: 480px;
+    margin-left: 00px;
+    margin-top: 30px;
+  }
+  
+  .personality{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 67px;
+  
+  }
+  .per{
+    text-align: center;
+  
+    color: #000000;
+    padding: 10px 10px;
+  }
+  .per:hover{
+    cursor: pointer;
+    animation: pulse;
+    animation-duration: 2s;
+  }
+  .p-p{
+    padding: 50px 40px;
+    background-color: #fcf545;
+  }
+  .p-i img{
+    width: 500px;
+  }
+  
+}

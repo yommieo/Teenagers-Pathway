@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar-toggler-icon {
+    color: black;
+}
+ nav {
+    position: relative;
+    box-shadow: 2px 2px 10px gray;
+    height: 80px;
+    
+}
+/* alignment of all naviagtion items to center */
+.nav1{
+    justify-content: space-around;
+    
+    
+}
+.nav1 a{
+    /* padding: 5px 10px; */
+}
+/* navigation bar link postion e.g Home  */
+.menu-ul {
+    position: absolute;
+    left: 40%;
+   
+
+}
+
+/* navigation bar link spacing e.g Home */
+.menu-ul li  {
+    padding: 2px 5px;
+    
+}
+
+/* logo  */
+.logo img {
+    position: absolute;
+    top: -120%;
+    left: -3%;
+    width: 230px;
+ }
+ .nav1 a {
+    font-family: serif;
+    /* font-family: Aref Ruqaa; */
+    font-size:15px;
+
+    
+ }
+.nav-item a {
+    color: #6AE1ED;
+    font-weight: lighter;
+    /* font-family: Aref Ruqaa; */
+    font-family: serif;
+}
+.nav-item a:hover{
+    color: #fcf545;
+    
+}
+
+
+
+
+
+/* Beginning of features */
+.navf li a {
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    color: #000;
+}
+    .navff li a {
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+        color: #000;
+} 
+
+
+
+ .navf li a:hover {
+    padding-top: 14px;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    color: #000;
+ }
+.navff li a:hover {
+        padding-top: 14px;
+        align-items: center;
+        width: 200px;
+        height: 50px;
+        color: #000 ;
+}
+.navf li {
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    width: 10%;
+}
+/* } 
+.f-icon img {
+    width: 30px;
+}  
+.a1 {
+    margin-top: 10px;
+} 
+.a2 {
+    margin-bottom: 10px;
+}
+/* End Terminal of the features */
+
+/* Begining of Help */
+.help-0 {
+    position: relative;
+    
+
+  
+}
+
+.navh li a {
+    padding: 10px 20px;
+    align-items: center;
+    font-size: 15px;
+    color: #000;
+}
+    .navh li a:hover {
+        padding-top: 14px;
+        align-items: center;
+        width: 150px;
+        height: 50px;
+        color: #000;
+    }
+
+
+     
+
+.sign-in a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+   
+    font-size: large;
+    
+
+}
+.sign-in {
+    font-weight: bold;
+    background-color: #fcf545  ;
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin: 35px;
+   
+    
+}
+.sign-in:hover {
+    font-weight: bold;
+    background-color: #6AE1ED ;
+    
+}
+.row-banner img{
+    position: relative;
+}
+.row-manner p{
+    position: absolute;
+    text-align: center;
+}
+.know-yourself {
+    font-weight: bold;
+    background-color: #fcf545  ;
+    padding: 5px 15px;
+    border-radius: 10px;
+    
+}
+.know-yourself:hover {
+    font-weight: bold;
+    background-color: #6AE1ED ;
+}
+section .first-card{
+    background-color: #6AE1ED ;
+    
+}
+section .second-card{
+    background-color: #6AE1ED
+}
+section .third-card{
+    background-color: #6AE1ED
+}
+
+section .card:hover{
+    
+    transform: scale(1.1);
+    transition: all ease 0.5s;
+}
